@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Zalando Sans SemiExpanded", sans-serif;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.navContainer{
+    display: flex;
+    width: 100%;
+    height: 8vh;
+}
+
+.navContainer .navbar{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+.navContainer .navbar .mainHeading{
+    font-size: 1.8em;
+}
+
+.navContainer .userLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:10%;
+}
+
+.navContainer .userName{
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.bodyContainer{
+    width: 100%;
+    flex:1 0 0;
+    background-color: gray;
+}
+
+
+.footerContainer{
+    width: 100%;
+    height :3vh;
+    background-color: blue;
+}
